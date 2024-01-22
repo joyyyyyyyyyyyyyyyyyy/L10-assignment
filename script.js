@@ -85,7 +85,7 @@ var section1TextUndo = anime({
 var section2Text = anime({
     targets: '#section2Text',
     translateX: {
-        value: [-1000, 0],
+        value: [1000, 0],
     },
 
     duration: 1000,
@@ -103,7 +103,7 @@ var vacCount = anime({
 var section2TextUndo = anime({
     targets: '#section2Text',
     translateX: {
-        value: [-1000],
+        value: [1000],
     },
 
     duration: 10,
@@ -162,7 +162,7 @@ var section3TableUndo = anime({
 $(document).ready(function () {
     $('#fullpage').fullpage({ //initialize
         //set options
-        sectionsColor: ['#261f2c', '#261f2c', '#261f2c'],
+        sectionsColor: ['#212122', '#212122', '#212122'],
         navigation: true,
         navigationPosition: 'right',
 
@@ -226,8 +226,8 @@ $(document).ready(function () {
         labels: labels,
         datasets: [{
             label: 'Cases per day',
-            backgroundColor: 'lightblue',
-            borderColor: 'lightblue',
+            backgroundColor: '#afeeee',
+            borderColor: '#afeeee',
             data: [1134, 1056, 986, 771, 756, 721, 654, 742, 689, 512, 455, 376, 244, 103],
         }]
     };

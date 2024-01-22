@@ -1,7 +1,5 @@
 body {
     font-family: "Poppins", sans-serif;
-    /* background-color: rgb(38, 31, 44); */
-    background-color: rgb(166, 106, 214);
 }
 
 .poppins {
@@ -36,11 +34,11 @@ nav {
 }
 
 #DataTables_Table_0_filter > label {
-    color: lightblue;
+    color: paleturquoise;
 }
 
 #DataTables_Table_0_info {
-    color: lightblue;
+    color: rgb(175, 238, 238);
 }
 
 #fp-nav ul li a span{
