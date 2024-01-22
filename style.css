@@ -14,7 +14,7 @@ body {
 nav {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
-    background-color: rgb(82, 128, 168);
+    background-color: paleturquoise;
 }
 
 .nav-item {
@@ -23,10 +23,10 @@ nav {
 }
 
 #navBrandID{
-    color: rgb(255, 255, 255);
+    color: #212122;
 }
 #navLinkID{
-    color: rgb(255, 255, 255);
+    color: #212122;
 }
 
 #DataTables_Table_0 > tbody > tr > td {
