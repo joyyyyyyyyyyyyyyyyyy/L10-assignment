@@ -1,7 +1,7 @@
 body {
     font-family: "Poppins", sans-serif;
-    background-color: rgb(38, 31, 44);
-    
+    /* background-color: rgb(38, 31, 44); */
+    background-color: rgb(166, 106, 214);
 }
 
 .poppins {
@@ -10,7 +10,7 @@ body {
 
 .section {
     font-family: "Poppins", sans-serif;
-    color: aliceblue
+    color: whitesmoke
 }
 
 nav {
@@ -48,19 +48,23 @@ nav {
 }
 
 #fp-nav > ul > li:nth-child(1) > a > span:nth-child(2) {
-    background-color: aliceblue;
+    background-color: whitesmoke;
 }
 
 #fp-nav > ul > li:nth-child(2) > a > span:nth-child(2) {
-    background-color: aliceblue;
+    background-color: whitesmoke;
 }
 
 #fp-nav > ul > li:nth-child(3) > a > span:nth-child(2) {
-    background-color: aliceblue;
+    background-color: whitesmoke;
 }
 
 .bi-person-fill-check {
-    color: rgb(63, 255, 63);
+    color: rgb(98, 255, 0);
+}
+
+.bi-person-fill-x {
+    color: rgb(255, 0, 0);
 }
 
 .bi {

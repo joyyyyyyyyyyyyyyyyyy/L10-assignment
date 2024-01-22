@@ -225,7 +225,7 @@ $(document).ready(function () {
     const data = {
         labels: labels,
         datasets: [{
-            label: 'Cases per day (December 1-14)',
+            label: 'Cases per day',
             backgroundColor: 'lightblue',
             borderColor: 'lightblue',
             data: [1134, 1056, 986, 771, 756, 721, 654, 742, 689, 512, 455, 376, 244, 103],
